@@ -48,7 +48,6 @@ A back end is already set up on port 4000, but you're gonna have to do some work
 The back-end contains a list of feed and comments in the directory `/server/data`, which simulates the DB.
 
 There, you'll have to write different endpoints:   
-
 1. An endpoint to return the list of feed with `PAGE_SIZE=5`.
 This endpoint should basically return (0-5, 5-10,...) based on the scrolling position.  
 
